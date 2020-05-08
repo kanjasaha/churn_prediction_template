@@ -1,0 +1,1 @@
+This folder holds the trained model/encoder that can be used for later use.

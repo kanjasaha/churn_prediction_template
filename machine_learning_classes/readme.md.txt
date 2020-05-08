@@ -1,0 +1,1 @@
+This folder holds the common classes used for various steps of a machine learning project life cycle.

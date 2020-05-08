@@ -1,0 +1,24 @@
+credentials_file_path:  './credentials/credentials.json'
+clientsecret_file_path:  './credentials/client_secret.json'
+file_path: 'data/churn_prediction/'
+file_ids:
+    train_data: '1t3Hfrc0L_O959IICRM_YYpantJPvJjeN'
+    test_data: '1t3Hfrc0L_O959IICRM_YYpantJPvJjeN'
+    raw_data: '1t3Hfrc0L_O959IICRM_YYpantJPvJjeN'
+scope:  'https://www.googleapis.com/auth/drive'
+learner:  ['randomforest','knn']
+index_column:
+    - 'POLICY_NUMBER'
+target_column:
+    - 'MAX_BILLING_CYCLE'
+predicted_target_column:
+    - 'PREDICTED_MAX_BILLING_CYCLE'
+model_columns:
+    - 'POLICY_NUMBER'
+    - 'START_MONTH_STRING'
+    - 'CHURN_MONTH_STRING'
+    - 'MEMBERS'
+    - 'STATE'
+    - 'CARRIER_NAME'
+    - 'MAX_BILLING_CYCLE'
+    - 'MAX_DURATION_IN_MONTHS'
